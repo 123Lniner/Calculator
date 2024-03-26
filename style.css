@@ -1,3 +1,5 @@
+/*Calculator style here! You may copy and edit the copy at will.*/
+
 body{
     margin: 0;
     display: flex;
@@ -47,6 +49,7 @@ button:active{
 }
 .operator-btn{
     background-color: hsl(35, 100%, 55%);
+    cursor: pointer;
 }
 .operator-btn:hover{
     background-color: hsl(35, 100%, 65%);
@@ -54,9 +57,32 @@ button:active{
 .operator-btn:active{
     background-color: hsl(35, 100%, 75%);
 }
-#placeholder:hover{
+.top-row-btn{
+    height: 33px;
+    background-color: hsl(35, 100%, 55%);
+    font-size: 2rem;
+    cursor: pointer;
+}
+.top-row-btn:hover{
+    background-color: hsl(35, 100%, 65%);
+}
+.top-row-btn:active{
+    background-color: hsl(35, 100%, 75%);
+}
+.placeholder:hover{
     background-color: hsl(0, 0%, 30%);
 }
-#placeholder:active{
+.placeholder:active{
     background-color: hsl(0, 0%, 30%);
+}
+.top-row-placehldr{
+    height: 33px;
+    background-color: hsl(35, 100%, 55%);
+    font-size: 2rem;
+}
+.top-row-placehldr:hover{
+    background-color: hsl(35, 100%, 55%);
+}
+.top-row-placehldr:active{
+    background-color: hsl(35, 100%, 55%);
 }

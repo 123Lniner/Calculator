@@ -1,15 +1,23 @@
+<!---
+This and other files mentioned in this file is able to be copied and edited as long it's the copy that's being edited.
+--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="calculatorstyle.css">
 </head>
 <body>
     <div id="calculator">
         <input id="display" readonly>
         <div id="keys">
+            <button class="top-row-placehldr"></button>
+            <button class="top-row-placehldr"></button>
+            <button class="top-row-placehldr"></button>
+            <button class="top-row-placehldr"></button>
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
@@ -30,8 +38,7 @@
             <button onclick="appendToDisplay('(')">(</button>
             <button onclick="appendToDisplay(')')">)</button>
             <button onclick="appendToDisplay('(-')">+/-</button>
-        </div>
     </div>
 </body>
-<script src="main.js"></script>
+<script src="calculatorscript.js"></script>
 </html>
