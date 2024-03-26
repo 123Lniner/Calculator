@@ -1,5 +1,5 @@
 // Console Logger
-const display = document.querySelector("#display");
+const display = document.querySelector(".display");
 const buttons = document.querySelectorAll("button");
 
 // These "specialChars" are the operator keys.
