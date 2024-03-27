@@ -1,0 +1,17 @@
+/* background behind calculator */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 85%);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+/* calculator */
+#calculator{
+    max-width: 500px;
+    background-color: hsl(0, 0%, 30%);
+    
+}
