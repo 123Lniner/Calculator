@@ -1,0 +1,14 @@
+/* anything with the affixes surrounding this text is referred to as a comment, it is not counted as code */
+*{
+    /* everything related to text */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    /* background of the file */
+    background-color: hsl(0, 0%, 95%);
+}
+div#calculator{
+    /* calculator size and background color */
+    background-color: hsl(0, 0%, 15%);
+}
