@@ -1,0 +1,38 @@
+<!-- any text surrounded in these special affixes, they are a comment and not included in the actual code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator (Remake)</title>
+    <link rel="stylesheet" href="Stylesheets/remake.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div id="keys">
+            <button class="operator" onclick="hiDisplay('/')">/</button>
+            <button onclick="hiDisplay('7')">7</button>
+            <button onclick="hiDisplay('8')">8</button>
+            <button onclick="hiDisplay('9')">9</button>
+            <button class="operator" onclick="hiDisplay('*')">*</button>
+            <button onclick="hiDisplay('4')">4</button>
+            <button onclick="hiDisplay('5')">5</button>
+            <button onclick="hiDisplay('6')">6</button>
+            <button class="operator" onclick="hiDisplay('-')">-</button>
+            <button onclick="hiDisplay('1')">1</button>
+            <button onclick="hiDisplay('2')">2</button>
+            <button onclick="hiDisplay('3')">3</button>
+            <button class="operator" onclick="hiDisplay('+')">+</button>
+            <button onclick="hiDisplay('0')">0</button>
+            <button onclick="hiDisplay('.')">.</button>
+            <button class="operator" onclick="calcTime()">=</button>
+            <button class="operator" onclick="byeDisplay()">C</button>
+            <button class="operator" onclick="hiDisplay('(')">(</button>
+            <button class="operator" onclick="hiDisplay(')')">)</button>
+            <button class="operator" onclick="hiDisplay('/100')">%</button>
+        </div>
+    </div>
+    <script src="Scripts/remake.js"></script>
+</body>
+</html>
